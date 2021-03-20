@@ -10,5 +10,11 @@ jobs:
               run: echo "Hello World"
             - name: multiline script
               run: |
-                  node -v
-                  npm -v
+                node -v
+                npm -v
+            - name: pyhton command
+              run: |
+                import platform
+                print(platform.processor())
+              shell: pyhton
+                  
