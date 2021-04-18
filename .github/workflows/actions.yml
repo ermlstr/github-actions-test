@@ -22,7 +22,7 @@ jobs:
           ls -a
       - name: Simple JC Action
         id: greet
-        uses: /actions/hello-world-javascript-action@v1.1
+        uses: /ermlstr/hello-world-javascript-action@v1.1
         with:
           who-to-greet: eRmaN
       - name: Log Greeting Tİme
